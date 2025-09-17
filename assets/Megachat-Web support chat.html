@@ -1,0 +1,64 @@
+<div id="mz-support-root" dir="ltr" aria-live="polite">
+  <div class="mz-panel" id="mz-panel" role="dialog" aria-label="Support chat">
+    <div class="mz-header">
+      <div class="mz-left">
+        <img class="mz-logo" alt="logo" />
+      </div>
+      <div class="mz-title" style="font-weight:900!important; letter-spacing:.25px!important; font: size 30px!important;">Support</div>
+      <div class="mz-actions">
+        <button class="mz-agent-btn" id="mz-agent-open" aria-label="Chat with agent" title="Agent chat">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path d="M4 12a8 8 0 0 1 16 0v3 M6 18h2v-6H6v6 M16 12v6h2v-6h-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <button class="mz-theme-toggle" id="mz-theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+          <svg class="mz-ico-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <svg class="mz-ico-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+            <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <button class="mz-close" id="mz-close" aria-label="Close" title="Close">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="mz-body">
+      <div class="mz-logwrap"><div id="mz-log" class="mz-log"></div></div>
+      <div class="mz-status" id="mz-status" role="status" aria-live="polite"></div>
+      <div class="mz-input mz-input-bot">
+        <input type="text" id="mz-msg" placeholder="Type your question…" autocomplete="off" inputmode="text">
+        <button id="mz-send">Send</button>
+      </div>
+    </div>
+    <div class="mz-agent-panel" id="mz-agent-panel" aria-hidden="true">
+      <div class="mz-agent-header">
+        <div class="mz-agent-title">Agent chat</div>
+        <button class="mz-agent-back" id="mz-agent-back" aria-label="Back" title="Back">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M10 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+      <div class="mz-agent-form">
+        <div class="mz-field"><label for="mz-agent-name">Name (optional)</label><input id="mz-agent-name" type="text" placeholder="Your name" autocomplete="name" /></div>
+        <div class="mz-field"><label for="mz-agent-phone">Phone (optional)</label><input id="mz-agent-phone" type="tel" placeholder="Phone number" autocomplete="tel" /></div>
+        <div class="mz-field wide email" id="mz-email-wrap">
+          <label for="mz-agent-email">Email address</label>
+          <input id="mz-agent-email" type="email" placeholder="you@example.com" autocomplete="email" />
+        </div>
+      </div>
+      <div class="mz-agent-chatwrap"><div class="mz-agent-chat" id="mz-agent-chat"></div></div>
+      <div class="mz-status" id="mz-status-agent" aria-live="polite"></div>
+      <div class="mz-input mz-input-agent">
+        <textarea id="mz-agent-input" placeholder="Write your message…" rows="1"></textarea>
+        <button id="mz-agent-send">Send</button>
+      </div>
+    </div>
+  </div>
+  <div class="mz-fab" id="mz-fab" role="button" aria-label="Open support">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="white" d="M12 3C7.03 3 3 6.58 3 11c0 2.54 1.25 4.83 3.23 6.34-.11.86-.54 2.45-1.8 3.42 0 0 2.02.35 3.95-1.02.95.27 1.96.42 2.99.42 4.97 0 9-3.58 9-8s-4.03-8-9-8z"/></svg>
+  </div>
+</div>
