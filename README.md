@@ -52,11 +52,19 @@ The plugin keeps your existing site UI untouched and only adds the smart support
 * After success, user messages will be forwarded to Telegram.
 ## Screenshots
 
-*(replace with your own images in the `assets/` folder)*
+## Screenshots
 
-![Settings Page](assets/settings.png)
+**1. Chat Widget (frontend)**  
 ![Chat Widget](assets/chat.png)
-![Admin Logs](assets/logs.png)
+
+**2. Agent Chat (user → admin request)**  
+![Agent Chat](assets/agent.png)
+
+**3. Telegram Bot Integration**  
+![Telegram Bot](assets/telegram.png)
+
+**4. Admin Settings Panel**  
+![Settings Panel](assets/settings.png)
 
 ## Architecture
 
