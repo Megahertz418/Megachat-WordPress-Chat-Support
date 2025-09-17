@@ -1,6 +1,3 @@
-Perfect 👍 Here’s the **full English README.md** in one single copy-paste block for your GitHub repo:
-
-````markdown
 # Megachat Support (WordPress Plugin)
 
 [![license](https://img.shields.io/badge/license-GPL--2.0--or--later-blue.svg)](LICENSE)
