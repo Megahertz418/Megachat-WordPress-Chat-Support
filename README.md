@@ -50,7 +50,6 @@ The plugin keeps your existing site UI untouched and only adds the smart support
   https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook
 
 * After success, user messages will be forwarded to Telegram.
-## Screenshots
 
 ## Screenshots
 
