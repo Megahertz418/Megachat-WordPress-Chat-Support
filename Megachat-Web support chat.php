@@ -5,6 +5,8 @@
  * Version: 0.4.0
  * Author: Megahertz
  */
+
+// SPDX-License-Identifier: GPL-2.0-or-later
 /**
  * Megachat Support - WordPress Plugin
  * Copyright (C) 2025  Megahertz418
