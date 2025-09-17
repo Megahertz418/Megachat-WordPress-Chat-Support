@@ -15,7 +15,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Knowledge Base via CSV (Google Sheets → Publish to web → CSV).
 - Branding options (light/dark logo).
 - English README with installation & configuration docs.
-- Base docs: `install.md`, `config.md`, `troubleshooting.md`.
 
 ### Security
 - Licensed under **GPL-2.0-or-later**.
