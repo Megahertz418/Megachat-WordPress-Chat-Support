@@ -95,8 +95,6 @@ No. Only technical logs (status code, message, timestamp, debug info) are stored
 * Telegram Webhook requires a valid secret.
 * Rate limiting is applied to prevent abuse.
 
-More details: [docs/security.md](docs/security.md)
-
 ## Releases
 
 Get the latest release from [Releases](../../releases).

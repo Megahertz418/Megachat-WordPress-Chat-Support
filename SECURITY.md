@@ -14,7 +14,7 @@ Older versions may not receive security updates.
 If you discover a security vulnerability, **please do not open a public issue**.  
 
 Instead, report it privately via email:  
-📧 megahertz418@example.com  
+📧 megahertz418@gmail.com  
 
 We will investigate and fix confirmed issues as quickly as possible.  
 Thank you for helping keep Megachat Support safe! 🙏
