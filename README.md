@@ -24,7 +24,7 @@ The plugin keeps your existing site UI untouched and only adds the smart support
 
 ## Installation
 1. Copy the `plugin/` folder into `wp-content/plugins/`.  
-   Or download the `megachat-support-x.x.x.zip` from [Releases](../../releases) and upload it in WordPress.  
+   Or download the `Megachat-support-X.X.X.zip` from [Releases](../../releases) and upload it in WordPress.  
 2. Activate the plugin in the WordPress dashboard.  
 3. Go to **Settings → Megachat Support** and fill in your configuration.
 

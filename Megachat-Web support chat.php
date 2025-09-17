@@ -1,10 +1,14 @@
 <?php
-/**
- * Plugin Name: Megachat-Web support chat
- * Description: This Plugin Helps you with 24 hour support
- * Version: 0.4.0
- * Author: Megahertz
- */
+/*
+Plugin Name: Megachat-Web support chat
+Description: This Plugin Helps you with 24 hour support
+Plugin URI: https://github.com/Megahertz418/Megachat-WordPress-Chat-Support
+Author: Megahertz418
+Author URI: https://github.com/Megahertz418
+Version: 0.1.0
+Text Domain: megachat-support
+Domain Path: /languages
+*/
 
 // SPDX-License-Identifier: GPL-2.0-or-later
 /**
