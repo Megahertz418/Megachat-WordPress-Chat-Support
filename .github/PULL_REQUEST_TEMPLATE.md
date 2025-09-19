@@ -16,3 +16,16 @@ Fixes #(issue)
 - [ ] Documentation updated
 - [ ] Tests passed locally (if applicable)
 - [ ] Commits follow Conventional Commits style
+Fixes #(issue)
+
+## Type of Change
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Documentation update
+- [ ] Other (please describe):
+
+## Checklist
+- [ ] Code follows WordPress coding standards
+- [ ] Documentation updated
+- [ ] Tests passed locally (if applicable)
+- [ ] Commits follow Conventional Commits style
