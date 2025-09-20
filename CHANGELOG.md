@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0] - 2025-09-17
 ### Added
-- Initial public release of **Megachat Support**.
+- Initial public release of **Megachat Web Support**.
 - AI provider integration (OpenAI / Gemini).
 - Telegram bot webhook endpoint with secret-based auth.
 - Admin logs UI (wide layout), basic filtering/clearing.

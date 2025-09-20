@@ -33,13 +33,13 @@ The plugin keeps your existing site UI untouched and only adds the smart support
 ### 1. AI Provider Keys
 - Select `openai` or `gemini` as the provider.  
 - Enter your API key.  
-- Keys are stored securely in WordPress Options (never commit them to the repo).
+- Keys are stored securely in WordPress Options
 
 ### 2. Knowledge Base (CSV)
 - Create a Google Sheet, go to **File → Publish to web → CSV**.  
 - Paste the CSV URL into the plugin settings.  
 - Suggested column format:  
-  | Question | Answer | Tags |
+  ID | Category | Question | Canonical_Answer | Keywords/Synonyms
 
 ### 3. Telegram Webhook
 - Enter and save your Bot Token.  
